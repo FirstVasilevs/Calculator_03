@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/key_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_one"
+        app:layout_constraintEnd_toStartOf="@id/key_two"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/key_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_two"
+        app:layout_constraintEnd_toStartOf="@id/key_three"
+        app:layout_constraintStart_toEndOf="@id/key_one"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/key_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_three"
+        app:layout_constraintEnd_toStartOf="@id/key_plus"
+        app:layout_constraintStart_toEndOf="@id/key_two"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/key_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_plus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/key_three"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/key_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_four"
+        app:layout_constraintEnd_toEndOf="@id/key_one"
+        app:layout_constraintStart_toStartOf="@id/key_one"
+        app:layout_constraintTop_toBottomOf="@id/key_one" />
+
+    <Button
+        android:id="@+id/key_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_five"
+        app:layout_constraintEnd_toEndOf="@id/key_two"
+        app:layout_constraintStart_toStartOf="@id/key_two"
+        app:layout_constraintTop_toBottomOf="@id/key_two" />
+
+    <Button
+        android:id="@+id/key_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_six"
+        app:layout_constraintEnd_toEndOf="@id/key_three"
+        app:layout_constraintStart_toStartOf="@id/key_three"
+        app:layout_constraintTop_toBottomOf="@id/key_three" />
+
+    <Button
+        android:id="@+id/key_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_seven"
+        app:layout_constraintEnd_toEndOf="@id/key_four"
+        app:layout_constraintStart_toStartOf="@id/key_four"
+        app:layout_constraintTop_toBottomOf="@id/key_four" />
+
+    <Button
+        android:id="@+id/key_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_minus"
+        app:layout_constraintEnd_toEndOf="@id/key_plus"
+        app:layout_constraintStart_toStartOf="@id/key_plus"
+        app:layout_constraintTop_toBottomOf="@id/key_plus" />
+
+    <Button
+        android:id="@+id/key_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_eight"
+        app:layout_constraintEnd_toEndOf="@id/key_five"
+        app:layout_constraintStart_toStartOf="@id/key_five"
+        app:layout_constraintTop_toBottomOf="@id/key_five" />
+
+    <Button
+        android:id="@+id/key_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_nine"
+        app:layout_constraintEnd_toEndOf="@id/key_six"
+        app:layout_constraintStart_toStartOf="@id/key_six"
+        app:layout_constraintTop_toBottomOf="@id/key_six" />
+
+    <Button
+        android:id="@+id/key_multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_multiply"
+        app:layout_constraintEnd_toEndOf="@id/key_minus"
+        app:layout_constraintStart_toStartOf="@id/key_minus"
+        app:layout_constraintTop_toBottomOf="@id/key_minus" />
+
+    <Button
+        android:id="@+id/key_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_dot"
+        app:layout_constraintEnd_toEndOf="@id/key_seven"
+        app:layout_constraintStart_toStartOf="@id/key_seven"
+        app:layout_constraintTop_toBottomOf="@id/key_seven" />
+
+    <Button
+        android:id="@+id/key_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_zero"
+        app:layout_constraintEnd_toEndOf="@id/key_eight"
+        app:layout_constraintStart_toStartOf="@id/key_eight"
+        app:layout_constraintTop_toBottomOf="@id/key_eight" />
+
+    <Button
+        android:id="@+id/key_equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_equal"
+        app:layout_constraintEnd_toEndOf="@id/key_nine"
+        app:layout_constraintStart_toStartOf="@id/key_nine"
+        app:layout_constraintTop_toBottomOf="@id/key_nine" />
+
+    <Button
+        android:id="@+id/key_divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_divide"
+        app:layout_constraintEnd_toEndOf="@id/key_multiply"
+        app:layout_constraintStart_toStartOf="@id/key_multiply"
+        app:layout_constraintTop_toBottomOf="@id/key_multiply" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
