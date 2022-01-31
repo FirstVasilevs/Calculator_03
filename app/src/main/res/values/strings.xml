@@ -16,4 +16,10 @@
     <string name="key_zero">0</string>
     <string name="key_equal">=</string>
     <string name="key_divide">/</string>
+    <string name="field_result">result</string>
+    <string name="result_info">result info</string>
+    <string name="key_reset">AC</string>
+    <string name="key_percent">%</string>
+    <string name="key_erase">←</string>
+    <string name="key_twoZero">00</string>
 </resources>
